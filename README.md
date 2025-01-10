@@ -27,6 +27,7 @@ To run this project, you need to have Python 3.6+ installed, along with the foll
 
 ```bash
 pip install tensorflow numpy scikit-learn matplotlib Pillow
+```
 
 ### How to work with this model?
 
@@ -34,6 +35,7 @@ pip install tensorflow numpy scikit-learn matplotlib Pillow
 
 ```bash
 git clone https://github.com/saksham1253/Image-Recognition-using-MobileNetV2.git
+```
 
 #### Where to find the file?
 
