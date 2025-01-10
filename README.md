@@ -1,4 +1,4 @@
-# Image-Recognition-using-MobileNetV2-with-VOC2007-Dataset
+# Image Recognition using MobileNetV2 with VOC2007 Dataset
 This project demonstrates the application of deep learning techniques for multi-label image classification using the VOC2007 dataset. The model is based on the MobileNetV2 architecture, which is fine-tuned to classify images into 20 object categories. Each image can contain multiple objects, making this a multi-label classification problem.
 
 ## Project Overview
@@ -27,3 +27,23 @@ To run this project, you need to have Python 3.6+ installed, along with the foll
 
 ```bash
 pip install tensorflow numpy scikit-learn matplotlib Pillow
+
+### How to work with this model?
+
+#### Cloning the repository
+
+```bash
+git clone https://github.com/saksham1253/Image-Recognition-using-MobileNetV2.git
+
+#### Where to find the file?
+
+Wherever you run the terminal presently in which folder it is open in that folder a clone of the model is made.
+
+#### Training the model
+
+![Defining the Path of Dataset for training the model]("
+
+ 
+
+
+
