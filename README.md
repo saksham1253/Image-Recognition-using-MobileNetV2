@@ -38,7 +38,7 @@ pip install tensorflow numpy scikit-learn matplotlib Pillow
 git clone https://github.com/saksham1253/Image-Recognition-using-MobileNetV2.git
 ```
 #### Where to find the file?
-Wherever you run the terminal presently in which folder it is open in that folder a clone of the model is made.
+Wherever the terminal is currently open, a clone of the model will be created in that folder.
 
 #### Training the model
 First, you need to train the model using the VOC2007 dataset and define the paths of the following as follows: 
@@ -49,7 +49,8 @@ Before training the model you need to define the name of the trained model file 
 ![modelsavefilename](modelsave.png)
 
 #### Testing the model
-This model works for a single image and predicts the class present in the image according to the dataset.
+This model works for a single image and predicts the class in the image according to the dataset.
+Do the changes on the testing_for_single_image.py file.
 
 ##### Define the name of the file of the trained model
 You need to import the trained model and put the name as follows:
