@@ -7,8 +7,8 @@ This project demonstrates the application of deep learning techniques for multi-
 The goal of this project is to develop a deep learning model that can predict multiple object classes in an image from the VOC2007 dataset. The dataset includes 20 different object categories such as aeroplane, bicycle, dog, person, etc. The model uses transfer learning with MobileNetV2 and fine-tunes it on the VOC2007 dataset to achieve accurate predictions.
 
 ## Features
-![class](class.png)
 - Multi-label image classification.
+  ![class](class.png)
 - Utilizes pre-trained MobileNetV2 for feature extraction.
 - Data augmentation techniques to enhance model generalization.
 - Evaluation using precision, recall, and F1-score.
@@ -37,16 +37,31 @@ pip install tensorflow numpy scikit-learn matplotlib Pillow
 ```bash
 git clone https://github.com/saksham1253/Image-Recognition-using-MobileNetV2.git
 ```
-![modelsave](modelsave.png)
 #### Where to find the file?
-![modelpath](modelpath.png)
 Wherever you run the terminal presently in which folder it is open in that folder a clone of the model is made.
 
 #### Training the model
+First, you need to train the model using the VOC2007 dataset and define the paths of the following as follows: 
 ![pathtrain](pathtrain.png)
 
-### Output
+#### Saving the trained model
+Before training the model you need to define the name of the trained model file and done this as follows:
+![modelsavefilename](modelsave.png)
+
+#### Testing the model
+This model works for a single image and predicts the class present in the image according to the dataset.
+
+##### Define the name of the file of the trained model
+You need to import the trained model and put the name as follows:
+![modelpath](modelpath.png)
+
+##### Image Path For Prediction
+For prediction, you need to give the path of the image for which you want to predict the class.
+![test image path](testimg.png)
+
+#### Sample Output
 ![output](output.png)
+For the above image, the model predicts the car class as shown in the image.
 
  
 
