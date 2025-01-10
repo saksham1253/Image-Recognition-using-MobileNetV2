@@ -43,7 +43,7 @@ Wherever you run the terminal presently in which folder it is open in that folde
 
 #### Training the model
 
-![Defining the Path of Dataset for training the model]("
+![Defining the Path of Dataset for training the model]("pathtrain.png")
 
  
 
